@@ -27,7 +27,7 @@
             <img class="img-thumbnail" src="{{$message->image }}">
             <p class="card-text">
                 {{ $message->content}}
-                <a href="/messages/{{ $message->id }}" >Leer más</a>
+                <a href="/messages/{{ $message->id }}" >Leer</a>
             </p>
         </div>
         @empty
